@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #888;
+    background: black;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+clearfix:after {
+    display: block;
+    content: ' ';
+    overflow: hidden;
+    height: 0;
+    clear: both;
+}
+
+input {
+    outline: none;
+}
+
+
+/*页面开始*/
+
+#header {
+    width: 396px;
+    height: 448px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.swiper-container {
+    width: 410px;
+    height: 100%;
+}
+
+.swiper-button-next {
+    width: 25px;
+    height: 60px;
+    background: #cccccc;
+    opacity: 0.7;
+    line-break: 60px;
+    text-align: center
+}
+
+.swiper-button-next p {
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.swiper-button-prev {
+    width: 25px;
+    height: 60px;
+    background: #cccccc;
+    opacity: 0.7;
+    text-align: center
+}
+
+.swiper-button-prev p {
+    font-size: 40px;
+    color: #f2f2f2;
+}
+
+.main {
+    width: 390px;
+    height: 427px;
+    background: white;
+    margin-top: 10px;
+}
+
+.main .top {
+    width: 390px;
+    height: 45px;
+    background: #f7faf9;
+}
+
+.main .top .left {
+    width: 92px;
+    height: 45px;
+    float: left;
+    overflow: hidden;
+}
+
+.main .top .left .kuai {
+    width: 5px;
+    height: 20px;
+    float: left;
+    background: #69a88f;
+    margin-top: 12px;
+}
+
+.main .top .left .zi {
+    float: right;
+}
+
+.main .top .left .zi p {
+    font-size: 18px;
+    color: #69a88f;
+    line-height: 45px;
+    text-align: center;
+}
+
+.main .top .right {
+    width: 56px;
+    height: 45px;
+    float: right;
+    position: relative;
+}
+
+.main .top .right .zi {
+    width: 46px;
+    height: 15px;
+    font-size: 13px;
+    color: #999999;
+    line-height: 45px;
+}
+
+.main .top .right .zi img {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+.main .middle1 {
+    width: 390px;
+    height: 165px;
+    background: white;
+    overflow: hidden;
+}
+
+.main .middle1 .one {
+    width: 350px;
+    height: 150px;
+    margin: 15px auto;
+}
+
+.main .middle1 .one img {
+    width: 350px;
+    height: 150px;
+}
+
+.main .middle2 {
+    width: 390px;
+    height: 80px;
+    background: white;
+}
+
+.main .middle2 .top {
+    width: 390px;
+    height: 47px;
+    background: white;
+}
+
+.main .middle2 .top h1 {
+    font-size: 19px;
+    color: #222222;
+    line-height: 47px;
+    text-align: center;
+}
+
+.main .middle2 .bottom {
+    width: 390px;
+    height: 33px;
+    background: white;
+}
+
+.main .middle2 .bottom .z {
+    width: 349px;
+    height: 33px;
+    margin: 0 auto;
+}
+
+.main .middle2 .bottom .z p {
+    font-size: 13px;
+    color: #999999;
+}
+
+.main .bottom {
+    width: 390px;
+    height: 124px;
+    background: blue;
+}
+
+.main .bottom ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .bottom ul li {
+    width: 130px;
+    height: 124px;
+}
+
+.main .bottom ul li img {
+    width: 130px;
+    height: 124px;
+}

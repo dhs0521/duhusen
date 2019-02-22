@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #888;
+    background: black;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+clearfix:after {
+    display: block;
+    content: ' ';
+    overflow: hidden;
+    height: 0;
+    clear: both;
+}
+
+input {
+    outline: none;
+}
+
+
+/*页面开始*/
+
+#main_wrapper {
+    width: 1130px;
+    height: 574px;
+    background: #f5f5f5;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main_wrapper .main {
+    width: 1104px;
+    height: 553px;
+    background: white;
+    margin: 10px auto;
+}
+
+#main_wrapper .main .top {
+    width: 1104px;
+    height: 270px;
+}
+
+#main_wrapper .main .top .left {
+    width: 210px;
+    height: 270px;
+    float: left;
+    background: white;
+}
+
+#main_wrapper .main .top .left img {
+    width: 210px;
+    height: 270px;
+}
+
+#main_wrapper .main .top .right {
+    width: 880px;
+    height: 270px;
+    float: right;
+}
+
+#main_wrapper .main .top .right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_wrapper .main .top .right ul li {
+    width: 212px;
+    height: 270px;
+    position: relative;
+}
+
+.main .top .right ul li .li1 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .top .right ul li .li1 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .top .right ul li .li1 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .top .right ul li .li2 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .top .right ul li .li2 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .top .right ul li .li2 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .top .right ul li .li3 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .top .right ul li .li3 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .top .right ul li .li3 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .top .right ul li .li4 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .top .right ul li .li4 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .top .right ul li .li4 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .top .right ul li dl {
+    width: 212px;
+    height: 270px;
+    text-align: center;
+}
+
+.main .top .right ul li dl dt {
+    width: 212px;
+    height: 184px;
+    background: white;
+}
+
+.main .top .right ul li dl dt img {
+    width: 212px;
+    height: 184px;
+}
+
+.main .top .right ul li dl dd {
+    width: 212px;
+    height: 86px;
+}
+
+.main .top .right ul li dl dd b {
+    font-size: 15px;
+    color: black;
+}
+
+.main .top .right ul li dl dd p {
+    font-size: 12px;
+    color: #cbb7b7;
+    margin-top: 8px;
+}
+
+.main .top .right ul li dl dd i {
+    font-size: 13px;
+    color: #ff6700;
+}
+
+
+/*下面*/
+
+#main_wrapper .main .bottom {
+    width: 1104px;
+    height: 270px;
+    margin-top: 13px;
+}
+
+#main_wrapper .main .bottom .left {
+    width: 210px;
+    height: 270px;
+    float: left;
+    background: white;
+}
+
+#main_wrapper .main .bottom .left img {
+    width: 210px;
+    height: 270px;
+}
+
+#main_wrapper .main .bottom .right {
+    width: 880px;
+    height: 270px;
+    float: right;
+}
+
+#main_wrapper .main .bottom .right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_wrapper .main .bottom .right ul li {
+    width: 212px;
+    height: 270px;
+    position: relative;
+}
+
+.main .bottom .right ul li .li5 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .bottom .right ul li .li5 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .bottom .right ul li .li5 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .bottom .right ul li .li6 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .bottom .right ul li .li6 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .bottom .right ul li .li6 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .bottom .right ul li .li7 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .bottom .right ul li .li7 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .bottom .right ul li .li7 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .bottom .right ul li .li8 {
+    width: 212px;
+    height: 65px;
+    background: #ff6700;
+    position: absolute;
+    top: 205px;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+.main .bottom .right ul li .li8 p {
+    margin-top: 10px;
+    color: white;
+}
+
+.main .bottom .right ul li .li8 i {
+    margin-bottom: 24px;
+    color: #ffb585;
+    font-size: 12px;
+}
+
+.main .bottom .right ul li dl {
+    width: 212px;
+    height: 270px;
+    text-align: center;
+}
+
+.main .bottom .right ul li dl dt {
+    width: 212px;
+    height: 184px;
+    background: white;
+}
+
+.main .bottom .right ul li dl dt img {
+    width: 212px;
+    height: 184px;
+}
+
+.main .bottom .right ul li dl dd {
+    width: 212px;
+    height: 86px;
+}
+
+.main .bottom .right ul li dl dd b {
+    font-size: 15px;
+    color: black;
+}
+
+.main .bottom .right ul li dl dd p {
+    font-size: 12px;
+    color: #cbb7b7;
+    margin-top: 8px;
+}
+
+.main .bottom .right ul li dl dd i {
+    font-size: 13px;
+    color: #ff6700;
+}
